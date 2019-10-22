@@ -1,7 +1,19 @@
 *{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 	font-family: Century Gothic;
+}
+
+.logo{
+	color: #fff1f0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	position: relative;
+	float: left;
+	margin-top: 18px;
+	margin-left: 18px;
 }
 
 header {
@@ -41,7 +53,7 @@ ul li.active a{
 
 .title{
 	position: absolute;
-	top: 55%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -49,4 +61,28 @@ ul li.active a{
 .title h1{
 	color: #fff;
 	font-size: 70px;
+	font-style: normal;
+	font-family: 'courier new', monospace;
 }
+
+.title h2{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 
+}
+ .container{
+ 	width: 80%;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+ #boxes .box{
+ 	float:left;
+ 	text-align: center;
+ 	width: 30%;
+ 	padding: 10px;
+ }
+
+ #boxes .box img{
+ 	width: 120px;
+ }
