@@ -6,6 +6,8 @@
 	<title>YOUR GUIDE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -13,7 +15,18 @@
 		<a href="#"><span class="first">Travel</span><span class="second">Now</span></a>
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="destinations.html" target="_blank">Destinations</a></li>
+			<nav class="dropdown">
+    			<li>
+    				<a href="destinations.html" target="_blank">Destinations <i class="fa fa-caret-down"></i></a>
+    			</li>
+				<nav class="dropdown-content">
+					<li><a href="usa.html" target="_blank">USA</a></li>
+					<li><a href="italy.html" target="_blank">Italy</a></li>
+					<li><a href="greece.html" target="_blank">Greece</a></li>	
+					<li><a href="moldova.html" target="_blank">Moldova</a></li>
+					<li><a href="switzerland.html" target="_blank">Switzerland</a></li>
+				</nav>
+			</nav>
 			<li><a href="about.html" target="_blank">About</a></li>
 			<li><a href="contact.html" target="_blank">Contact</a></li>
 		</ul>
