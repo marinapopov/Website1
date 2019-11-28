@@ -175,65 +175,54 @@ section h2 {
 	background: black;
 	opacity: .9;
 }
+
+section h3 {
+	font-size: 70px;
+	font-family:'Courier', cursive;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	margin-top: 275px;
+	color: white;
+}
+
+.img-about {
+	height: 400px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.img-about h3 {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+.img-about img {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: black;
+	opacity: .9;
+}
 .dateContainer {
 	display: grid;
 	grid-template-rows: 50px;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(4,1fr);
 	justify-content: center;
-	border: 1px solid black;
+	margin: 50px 100px 100px 100px;
 }
-.dateCheck-in, .dateCheck-out, .datePriceLimit {
-	border: 1px solid red;
+.dateCheck-in, .dateCheck-out, .datePriceLimit , .btn{
+	border: 1px solid black;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
-	fill: blue;	
+	font-weight: bold;
+	background: #55A7D1;
 }
 
-.mapouter {
-	position: relative;
-	text-align: right;
-	height: 500px;
-	width: 600px;
-	margin-top: 100px;
-	margin-left: 100px;
-}
-
-.gmap_canvas {
-	overflow: hidden;
-	background: none;
-	height: 500px;
-	width: 600px;
-}
-
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	box-sizing: border-box;
-}
-
-input [type=text,email], textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+.dateCheck-in input, .dateCheck-out input, .datePriceLimit select {
+	background: #9DC5D9;
 
 .container {
   border-radius: 5px;
