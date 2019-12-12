@@ -1,0 +1,70 @@
+body {
+    margin:0
+}
+.menu-btn {
+    color: black;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    vertical-align:middle;
+    text-align:center;
+}
+.menu-btn:hover {
+    color:#000!important;
+    background-color:#ccc;
+}
+
+.info-section {
+    max-width:605px;
+    margin: 0 auto;
+}
+
+.wide-text {
+    letter-spacing: 4px;
+}
+
+.transparent-text {
+    opacity: 0.60;
+}
+
+.justify-text {
+    text-align: justify!important;
+}
+.footer {
+    background-color: #1c2331;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.offers-section {
+    box-sizing: border-box;
+    width: 100%;
+    display:table;
+    padding: 0 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.article {
+    background-color: #f1f1f1;
+    width: 33.3333%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.article p span {
+    color: orange;
+    text-weight: bold;
+}
+.article-headers {
+    font-size: 32px;
+    font-family: Verdana,sans-serif;
+}
+.align-center {
+    text-align: center!important;
+}

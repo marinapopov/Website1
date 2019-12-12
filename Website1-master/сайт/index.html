@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!-- Navigation -->
+<nav >
+    <a href="#" class="" style="margin-left:10%; vertical-align: middle; font-size: 30px; font-family: Sedgwick Ave Display, cursive; color: black; text-decoration: none;">TravelNow</a>
+    <div style="float: right; display: inline; margin-right: 10%">
+        <a href="#home" class="menu-btn">HOME</a>
+        <a href="#band" class="menu-btn">DESTINATION</a>
+        <a href="#tour" class="menu-btn">ABOUT</a>
+        <a href="#contact" class="menu-btn">CONTACT</a>
+    </div>
+</nav>
+
+<!-- Slide Show -->
+<section>
+    <img class="bgSlide" height="800px" src="img/1.jpg"
+         style="width:100%">
+    <img class="bgSlide" height="800px" src="img/2.jpg"
+         style="width:100%">
+    <img class="bgSlide" height="800px" src="img/5.jpg"
+         style="width:100%">
+</section>
+
+<!-- INFO -->
+<section class="info-section align-center">
+    <h2 class="wide-text">Get Ready for Real time Adventure</h2>
+    <p class="transparent-text"><i>It's gonna be amazing</i></p>
+    <p class="justify-text">
+        We published our annual Readers' Choice Awards, and for the fifth year in a row Italy is the No. 1 destination
+        travelers want to visit.
+        The awards are based on the ratings and feedback of more than 128,000 readers — the highest level of
+        participation in the magazine's history.
+        Other Readers' Choice Awards include the world's best cruise lines, hotels, spas, and airlines, all of which you
+        can check out here.
+        See a ranking of the best countries you should visit this year.
+    </p>
+</section>
+
+<!-- OFFERS -->
+<section class="offers-section">
+    <article class="article">
+        <span class="article-headers">Greece</span>
+        <img src="img/4.jpg" alt="greece img" style="width:100%;">
+        <p>FROM <span>450$</span></p>
+    </article>
+    <article class="article">
+        <span class="article-headers">Italy</span>
+        <img src="img/5.jpg" alt="greece img" style="width:100%;">
+        <p>FROM <span>650$</span></p>
+    </article>
+    <article class="article">
+        <span class="article-headers">Switzerland</span>
+        <img src="img/7.jpg" alt="Random Name" style="width:100%">
+        <p>FROM <span>750$</span></p>
+    </article>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Powered by MARINA POPOV</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("bgSlide");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+</script>
+
+</body>
+</html>
